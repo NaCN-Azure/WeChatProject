@@ -3,7 +3,7 @@ import common from '../../utils/common.js'
 
 const db = wx.cloud.database()  //启用云端的数据库
 const news = db.collection('news')   //获取数据库中的集合
-
+//
 Page({
 
     /**
